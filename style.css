@@ -1,0 +1,41 @@
+img{
+	width: 75%;
+}
+
+body {
+    background-color: #F7CAC9;
+}
+
+
+.css-grid-layout{
+    color: F7CAC9;
+    width: 25%;
+    height 25%:
+	display: grid
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+    float: left;
+    margin-left: 0px;
+/*	grid-template-areas:
+		"header header header"
+		"sidebar main-content page-title"
+		"footer-content footer-content footer-content"
+		;*/
+}
+
+.css-grid-layout-two{
+    color: F7CAC9;
+    width: 25%;
+    height 25%:
+	display: grid
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+    float: left;
+    margin-right: 0px;
+/*	grid-template-areas:
+		"header header header"
+		"sidebar main-content page-title"
+		"footer-content footer-content footer-content"
+		;*/
+}
+
